@@ -1,0 +1,60 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+#header {
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    mix-blend-mode: screen;
+    border-radius: 10px;
+    padding: 10px 5px;  
+    height: 4em;    
+}
+
+header {
+    width: 100%;
+    height: 230px;
+    background-image: url(/assets/fondo\ \(1\).jpg);
+    background-size: cover;
+    margin-top: 85px; 
+}
+h2{
+    font-size: 2em;
+}
+p{
+    font-weight: 400;
+    font-size: 1em;
+}
+#transition{
+    width: 400px;
+    background-color: #DE9FDD;
+    position: absolute;
+    padding: 35px;
+    height: 830px;  
+    left: -600px;
+}
+#img:hover #transition {    
+    left: 8px;
+    transition: 2s;
+}
+#img {
+    width: 600px;
+}
+img{
+    position: absolute;
+    width: 600px;
+}
+a {
+    font-weight: 400;
+}
+
+    
